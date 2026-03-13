@@ -1,0 +1,27 @@
+{
+  "name": "sms-segment-calculator",
+  "version": "1.0.0",
+  "description": "Calculate SMS segments for GSM 7-bit and Unicode messages. Zero dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/tests.ts"
+  },
+  "keywords": [
+    "sms",
+    "segment",
+    "gsm",
+    "unicode",
+    "ucs2",
+    "telecom",
+    "messaging"
+  ],
+  "author": "Evans",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
